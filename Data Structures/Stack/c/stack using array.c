@@ -16,14 +16,14 @@ void main()
         ch=menu();
         switch(ch)
         {
-            case 1: push();
+            case 1: pop();
                 break;
-            case 2: pop();
+            case 2: push();
                 break;
             case 3: display();
                 break;
             case 4: exit(0);
-            default: printf("\nEnter a valid choice!!");
+            default: printf("\nEnter a valid choice!vgvbybn ");
         }
     }while(1);
 }
